@@ -1,4 +1,4 @@
-package org.rcdb
+package org.jlab.rcdb
 
 //Set default parameters
 // result

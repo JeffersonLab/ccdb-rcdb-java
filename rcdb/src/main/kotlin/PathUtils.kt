@@ -2,11 +2,11 @@
  * Created by Dmitry on 3/24/2014.
  */
 
-package org.rcdb.helpers
+package org.jlab.rcdb.helpers
 
 import java.time.ZonedDateTime
 import java.text.SimpleDateFormat
-import org.rcdb.RequestParseResult
+import org.jlab.rcdb.RequestParseResult
 import java.time.Instant
 import java.time.ZoneId
 

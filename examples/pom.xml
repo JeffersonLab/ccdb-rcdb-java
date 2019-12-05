@@ -3,19 +3,25 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>ccdb-rcdb</artifactId>
-        <groupId>org.jlab</groupId>
-        <version>1.0-SNAPSHOT</version>
+        <groupId>org.jlab.ccdbrcdb</groupId>
+        <artifactId>ccdb-rcdb-client</artifactId>
+        <version>2.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>examples</artifactId>
-    <groupId>org.jlab.examples</groupId>
+    <groupId>org.jlab.ccdbrcdb.examples</groupId>
 
     <dependencies>
         <dependency>
-            <groupId>org.jlab</groupId>
+            <groupId>org.jlab.ccdb</groupId>
             <artifactId>ccdb</artifactId>
+            <version>2.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>org.jlab.rcdb</groupId>
+            <artifactId>rcdb</artifactId>
+            <version>2.0-SNAPSHOT</version>
         </dependency>
     </dependencies>
 </project>

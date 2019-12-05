@@ -1,4 +1,4 @@
-package org.rcdb
+package org.jlab.rcdb
 
 import java.sql.DriverManager
 import java.sql.Connection
